@@ -1,0 +1,12 @@
+<Project Sdk="Microsoft.NET.Sdk">
+
+  <PropertyGroup>
+    <TargetFramework>netcoreapp3.1</TargetFramework>
+    <RootNamespace>RedLamp_Entity</RootNamespace>
+  </PropertyGroup>
+  <ItemGroup>
+    <Reference Include="Godot">
+      <HintPath>$(Dir)GodotSharp.dll</HintPath>
+    </Reference>
+  </ItemGroup>
+</Project>
