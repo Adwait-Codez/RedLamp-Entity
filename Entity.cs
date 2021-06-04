@@ -8,6 +8,9 @@ namespace RedLamp_Entity
     {
         uint id;
         String type;
+        String UserName;
+        String Mobtype;
+        uint Entitytype;
         Vector3 position = Vector3.Zero;
         Vector3 velocity = Vector3.Zero;
         float yaw = 0;
@@ -21,6 +24,9 @@ namespace RedLamp_Entity
         String heldItem; // shortcut to equipment[0]
         bool isValid = true;
         Array metadata;
+        float Health;
+        float food;
+        float foodsaturation;
         public Entity(uint ida) {
             id = ida;
             heldItem = equipment[0];
