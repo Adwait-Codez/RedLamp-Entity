@@ -2,6 +2,8 @@
 using System.Collections.Generic;
 using Godot;
 
+//poggers moron
+
 namespace RedLamp_Entity
 {
     public class Entity
